@@ -75,7 +75,7 @@ const Navbar = () => {
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="/"
+            href="https://twitter.com/fardannozami"
             target="_blank"
             className="w-6 mx-3"
             whileHover={{y: -2}}
@@ -85,7 +85,7 @@ const Navbar = () => {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href="/"
+            href="https://github.com/nozamidotid"
             target="_blank"
             className="w-6 mx-3"
             whileHover={{y: -2}}
@@ -95,7 +95,7 @@ const Navbar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="/"
+            href="https://www.linkedin.com/in/cah-bantul/"
             target="_blank"
             className="w-6 mx-3"
             whileHover={{y: -2}}
