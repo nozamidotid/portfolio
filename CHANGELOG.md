@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/nozamidotid/portfolio/compare/v1.4.0...v1.5.0) (2023-04-20)
+
+
+### Features
+
+* **feat:** link to social media ([a85605c](https://github.com/nozamidotid/portfolio/commit/a85605cb8aae7caf33b5ec8b4ec0f946557e0f4e))
+
 ## 1.4.0 (2023-04-20)
 
 
