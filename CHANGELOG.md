@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.4.0 (2023-04-20)
+
+
+### Features
+
+* **feat:** add docker-compose for develpment ([6aff568](https://github.com/nozamidotid/portfolio/commit/6aff5682145a68e3729dfaaca0668f963137c189))
+
 ## [1.3.0](https://github.com/CahBantul/Next.js-Developer-Portfolio-Starter-Code/compare/v1.2.0...v1.3.0) (2023-04-19)
 
 
