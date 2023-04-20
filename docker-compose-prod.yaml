@@ -1,0 +1,48 @@
+version: '3'
+
+services:
+  nextjs:
+    container_name: nextjs
+    build:
+      context: ./
+    image: nextjs
+    ports:
+      - '3000:3000'
+    restart: unless-stopped
+    networks:
+      - app-next
+
+  webserver:
+    depends_on:
+      - nextjs
+    image: nginx:1.15.12-alpine
+    container_name: webserver
+    restart: unless-stopped
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./config:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - /tmp/acme_challenge:/tmp/acme_challenge
+    networks:
+      - app-next
+
+  certbot:
+    depends_on:
+      - webserver
+    image: certbot/certbot
+    container_name: certbot
+    volumes:
+      - "/etc/letsencrypt:/etc/letsencrypt"
+      - "/tmp/acme_challenge:/tmp/acme_challenge"
+    environment:
+      - TERM=xterm
+    command: sh -c "certbot certonly --webroot -w /tmp/acme_challenge -d nozami.id --text --agree-tos --email nozami.id@gmail.com --rsa-key-size 4096 --verbose --keep-until-expiring --preferred-challenges=http"
+
+volumes:
+  certbot-etc:
+
+networks:
+  app-next:
+    driver: bridge
