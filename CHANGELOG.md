@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/nozamidotid/portfolio/compare/v1.5.0...v1.5.1) (2023-05-13)
+
+
+### Bug Fixes
+
+* **delete:** docker for learning ([28541d8](https://github.com/nozamidotid/portfolio/commit/28541d8943bba9ebbf24b715e9d59d9ab5d157a9))
+* **fix:** title home page ([04636f1](https://github.com/nozamidotid/portfolio/commit/04636f15fca3754c22a0a8004d140ac0795b276b))
+
 ## [1.5.0](https://github.com/nozamidotid/portfolio/compare/v1.4.0...v1.5.0) (2023-04-20)
 
 
