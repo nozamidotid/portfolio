@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  nextjs:
+    container_name: nextjs
+    build:
+      context: ./
+    image: nextjs
+    ports:
+      - '3000:3000'
+    restart: unless-stopped
+    networks:
+      - nextjs-network
+
+networks:
+  nextjs-network:
+    driver: bridge
