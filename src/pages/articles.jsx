@@ -5,7 +5,12 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg';
+import project1 from '../../public/images/articles/nextjs.png';
+import project2 from '../../public/images/articles/wsl.png';
+import project3 from '../../public/images/articles/laravel.png';
+import project4 from '../../public/images/articles/laravel-sail.png';
+import project5 from '../../public/images/articles/nextjs-docker.png';
+import project6 from '../../public/images/articles/upgrade-laravel.png';
 import {motion} from 'framer-motion'
 
 const FramerImage = motion(Image)
@@ -42,9 +47,9 @@ const FeaturedArticles = ({type, title, summary, image, link, githubLink}) => {
         </Link>
         <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">{summary}</p>
         <div className="mt-2 flex items-center">
-          <Link href={githubLink} target="_blank" className="w-10">
+          {/* <Link href={githubLink} target="_blank" className="w-10">
             <GithubIcon />
-          </Link>
+          </Link> */}
           <Link
             href={link}
             target="_blank"
@@ -52,7 +57,7 @@ const FeaturedArticles = ({type, title, summary, image, link, githubLink}) => {
             sm:px-4 sm:text-base
             "
           >
-            Visit Project
+            Visit Web
           </Link>
         </div>
       </div>
@@ -119,61 +124,57 @@ const articles = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedArticles
-                title={'Crypto Screener Application'}
+                title={'Deploy Nextjs App ke VPS dengan Menggunakan docker plus SSL Domain'}
                 image={project1}
                 githubLink={'/'}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                link={'/'}
+                summary="Langsung saja kita masuk ke VPS nya dan lakukan update, install docker dan docker compose"
+                link={'https://medium.com/@nozami.id/deploy-nextjs-app-ke-vps-dengan-menggunakan-docker-plus-ssl-domain-798ea48ea325'}
                 type={'Featured Article'}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Article
-                title={'Crypto Screener Application'}
-                image={project1}
+                title={'Cara Deploy Aplikasi Laravel ke VPS Ubuntu'}
+                image={project3}
                 githubLink={'/'}
-                link={'/'}
+                link={'https://medium.com/@nozami.id/cara-deploy-aplikasi-laravel-ke-vps-ubuntu-ec2-aws-823003d92e93'}
                 type={'Featured Article'}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Article
-                title={'Crypto Screener Application'}
-                image={project1}
+                title={'Cara Menjalankan/Deploy Laravel dengan Menggunakan Laravel Sail'}
+                image={project4}
                 githubLink={'/'}
-                link={'/'}
+                link={'https://medium.com/@nozami.id/cara-menjalankan-deploy-laravel-dengan-menggunakan-laravel-sail-b68383092d57'}
                 type={'Featured Article'}
               />
             </div>
             <div className="col-span-12">
               <FeaturedArticles
-                title={'Crypto Screener Application'}
-                image={project1}
+                title={'Cara Install WSL 2, Ubuntu dan Docker di WSL 2 Windows 11/10 tanpa Docker Desktop'}
+                image={project2}
                 githubLink={'/'}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                link={'/'}
+                summary="Ceritanya aku sedang belajar Deploy menggunakan Laravel sail di lokal, eh ternyata Laravel sail hanya bisa jalan di MAC, ubuntu atau di WSL. Tak coba jalankan menggunakan docker desktop gak bisa. Akhirnya akupun googling sana sini untuk menjalankan docker di WSL dan docker desktopnya pun tak uninstall biar gak double double."
+                link={'https://medium.com/@nozami.id/cara-install-wsl-2-ubuntu-dan-docker-di-wsl-2-windows-11-10-tanpa-docker-dekstop-18bead37515e'}
                 type={'Featured Article'}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Article
-                title={'Crypto Screener Application'}
-                image={project1}
+                title={'Deploy Nextjs Menggunakan Docker'}
+                image={project5}
                 githubLink={'/'}
-                link={'/'}
+                link={'https://medium.com/@nozami.id/mendeploy-nextjs-app-dengan-menggunakan-docker-ffe4a3e6c39a'}
                 type={'Featured Article'}
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Article
-                title={'Crypto Screener Application'}
-                image={project1}
+                title={'Cara Upgrade Laravel 8 menjadi Laravel 10'}
+                image={project6}
                 githubLink={'/'}
-                link={'/'}
+                link={'https://medium.com/@nozami.id/cara-upgrade-laravel-8-menjadi-laravel-10-8c9a129d7298'}
                 type={'Featured Article'}
               />
             </div>
