@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/nozamidotid/portfolio/compare/v1.5.1...v1.6.0) (2023-05-17)
+
+
+### Features
+
+* add docker for deploy local ([3919453](https://github.com/nozamidotid/portfolio/commit/3919453489d23aaa6f47432431df2952ea37aecf))
+* add docker for deploy local ([c05d27e](https://github.com/nozamidotid/portfolio/commit/c05d27e27fb6654fe053d9fffaa130241cb97c4f))
+* adding articles page ([c30e6b5](https://github.com/nozamidotid/portfolio/commit/c30e6b5d2c9a0c1a1b614256f1c00f83ea778d99))
+
 ### [1.5.1](https://github.com/nozamidotid/portfolio/compare/v1.5.0...v1.5.1) (2023-05-13)
 
 
