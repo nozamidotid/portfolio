@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/nozamidotid/portfolio/compare/v1.6.0...v1.7.0) (2023-12-04)
+
+
+### Features
+
+* update experience and adding articles Page ([b2eefcc](https://github.com/nozamidotid/portfolio/commit/b2eefccd5818d0b1b41fb04786c33de51e42ae01))
+
 ## [1.6.0](https://github.com/nozamidotid/portfolio/compare/v1.5.1...v1.6.0) (2023-05-17)
 
 
