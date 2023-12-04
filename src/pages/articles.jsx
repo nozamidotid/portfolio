@@ -124,11 +124,11 @@ const articles = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedArticles
-                title={'Deploy Nextjs App ke VPS dengan Menggunakan docker plus SSL Domain'}
+                title={'Cara Deploy Nextjs App Ke Hosting'}
                 image={project1}
                 githubLink={'/'}
-                summary="Langsung saja kita masuk ke VPS nya dan lakukan update, install docker dan docker compose"
-                link={'https://medium.com/@nozami.id/deploy-nextjs-app-ke-vps-dengan-menggunakan-docker-plus-ssl-domain-798ea48ea325'}
+                summary="Berikut ini video tentang berbagai masalah deploy nextjs ke hosting cpanel"
+                link={'https://www.youtube.com/watch?v=X8egWvnsORg'}
                 type={'Featured Article'}
               />
             </div>
@@ -152,11 +152,11 @@ const articles = () => {
             </div>
             <div className="col-span-12">
               <FeaturedArticles
-                title={'Cara Install WSL 2, Ubuntu dan Docker di WSL 2 Windows 11/10 tanpa Docker Desktop'}
+                title={'Membuat API Blog dengan menggunakan Laravel'}
                 image={project2}
                 githubLink={'/'}
-                summary="Ceritanya aku sedang belajar Deploy menggunakan Laravel sail di lokal, eh ternyata Laravel sail hanya bisa jalan di MAC, ubuntu atau di WSL. Tak coba jalankan menggunakan docker desktop gak bisa. Akhirnya akupun googling sana sini untuk menjalankan docker di WSL dan docker desktopnya pun tak uninstall biar gak double double."
-                link={'https://medium.com/@nozami.id/cara-install-wsl-2-ubuntu-dan-docker-di-wsl-2-windows-11-10-tanpa-docker-dekstop-18bead37515e'}
+                summary="Berikut ini merupakan playlist tentang membuat blog APi dengan menggunakan Laravel"
+                link={'https://www.youtube.com/watch?v=ZmwzidrfVuc&list=PLtU8id_Z2q8lMCOG9sPZwCiQqDaCaneRg'}
                 type={'Featured Article'}
               />
             </div>

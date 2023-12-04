@@ -55,11 +55,21 @@ const Experience = () => {
         />
         <ul className="flex flex-col w-full items-start justify-between ml-4 xs:ml-2">
           <Details
+            position={'Software Engineer'}
+            company={'PT Digdaya Inovasi Gemilang'}
+            companyLink={'https://digdaya.co/'}
+            time={'September 2023 - Now'}
+            address={'Yogyakarta'}
+            work={
+              'At PT Digdaya Companies, I contributed to cutting-edge projects as a Software Engineer. I developed and maintained robust web applications, specializing in Laravel and PostgreSQL. My role involved creating scalable solutions, optimizing databases, and ensuring the seamless deployment of applications on AWS EC2 instances.'
+            }
+          />
+          <Details
             position={'Laravel Developer'}
             company={'PT Inosoft'}
             companyLink={'https://inosoftweb.com/'}
-            time={'August 2022 - now'}
-            address={'surabaya'}
+            time={'August 2022 - August 2023'}
+            address={'Surabaya'}
             work={
               'I was responsible for developing and maintaining the back-end of the website. I worked on creating web applications using PHP and MySQL, designing database structures to store data efficiently, writing APIs to integrate with third-party services, testing code for bugs and debugging them when necessary. My work also included bug fixes and feature implementation using Git version control system.'
             }
